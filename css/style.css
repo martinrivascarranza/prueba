@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oswald:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+
+.tituloprincipal {
+
+  color: black;
+  background-color: #fed825;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px ;
+
+}
+
+.envios {
+
+  background-color: black;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  height:40px;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+
+.barranavegacion ul{
+
+  display: flex;
+  justify-content:space-between;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  font-size:larger;
+
+}
+
+.barranavegacion a{
+  color:black;
+  text-decoration: none;
+}
+
+.imagen {
+  background-image: url(../imagenes/index/fotoportadaoscura.jpg);
+  text-align: center;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px;
+  margin-bottom: 20px;
+}
+
+.imagen h1 {
+  
+  font-size: 55px;
+  font-weight:bold;
+  text-align: center;
+  
+  
+}
+
+.kettlebellideal {
+
+  display: flex;
+  font-family: 'Oswald', sans-serif; 
+  border: solid;
+  font-size: 30px;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+.boton {
+  
+  background-color: #fed825;
+  color: black;
+  padding: 10px;
+  width: 150px;
+  font-family:'Oswald', sans-serif;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+
+.kbidealyboton {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.fotokettlebellideal img {
+  width: 400px;
+  margin-bottom: -10px;
+
+}
+
+.powderkettlebells {
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+}
+
+.pesaspowder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 100px;
+  
+}
+
+.pesaspowder img {
+  height: 350px;
+}
+
+.correo {
+  
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+ 
+
+}
+
+.correo img {
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.contactoredessociales {
+  display: flex;
+  align-items: center;
+  background-color: #fed825;
+  border: solid;
+  justify-items:left;
+  gap: 20px;
+}
+
+.botondecompras {
+  background-color: #fed825;
+  color: black;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif ;
+  border: solid;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+
+/* aqui comienza kettlebells.html*/
+
+
+
+.competicion h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.competicion p {
+  font-size: 20px;
+}
+
+.competicion img {
+  width: 45%;
+  height: 450px;
+  border: solid;
+  border-radius: 5px;
+}
+
+
+/* aqui comienza entrenamientos.html */
+ 
+.tituloseccion {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif ;
+ 
+}
+
+.swingsnatch,
+.pesomuertopushup {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.swingsnatch article,
+.pesomuertopushup article {
+  text-align: center;
+  flex: 1; 
+ }
+
+
+.swingsnatch img,
+.pesomuertopushup img {
+  width: 50%; 
+}
+
+
+.swingsnatch h2,
+.pesomuertopushup h2 {
+  margin-top: 0; 
+}
+
+.swingsnatch h3{
+  border: none;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif ;
+}
+
+.pesomuertopushup h3{
+  border: none;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif ;
+}
+
+
+
+/*aqui comienza ventas.html*/
+
+.kettlebelldecompeticion {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 150px;
+}
+
+.kettlebelldecompeticion img {
+  height: 355px;
+}
+
+
+/*aqui comienza contacto.html */
+
+.container {
+  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  border: solid;
+  margin-top: 150PX;
+  margin-bottom: 150px;
+ }
+
+  form {
+    display: grid;
+    grid-gap: 10px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border: solid;
+    resize: none;
+   }
+
+
+   .envio {
+    background-color: #fed825;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+   }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
